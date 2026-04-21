@@ -1,5 +1,5 @@
 SOC log analysis using Splunk and Windows Event Logs
-# Windows Event Log Analysis with Splunk
+# Windows Event Log Analysis (SOC Lab)
 
 ## Objective
 This project focuses on analyzing Windows Security Event Logs using Splunk to identify potential reconnaissance activities, specifically local group enumeration.
