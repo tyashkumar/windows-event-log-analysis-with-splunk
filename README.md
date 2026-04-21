@@ -25,7 +25,7 @@ To find these specific events, I used the following SPL:
 
 
 -------------------------------------------------------------------------------------
-## Technical Analysis: Event Code 4625 (Logon Failure)<img width="1795" height="1071" alt="failed-login" src="https://github.com/user-attachments/assets/b173bb8d-d408-4d62-9508-79b2eca67d4c" />
+## Technical Analysis: Event Code 4625 (Login Failure)<img width="1795" height="1071" alt="failed-login" src="https://github.com/user-attachments/assets/b173bb8d-d408-4d62-9508-79b2eca67d4c" />
 ### Incident Overview
 This event represents a **Failed Logon attempt**. Analyzing these is crucial for identifying brute-force attacks.
 
