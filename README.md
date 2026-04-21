@@ -22,3 +22,16 @@ To find these specific events, I used the following SPL:
 * **Account Name:** [Redacted] performed the enumeration.
 * **Process Name:** `C:\Windows\explorer.exe`
 * **Significance:** Frequent 4798 events from an unusual user account can indicate a "Discovery" phase of the MITRE ATT&CK framework.
+
+
+-------------------------------------------------------------------------------------
+## Technical Analysis: Event Code 4625 (Logon Failure)<img width="1795" height="1071" alt="failed-login" src="https://github.com/user-attachments/assets/b173bb8d-d408-4d62-9508-79b2eca67d4c" />
+### Incident Overview
+This event represents a **Failed Logon attempt**. Analyzing these is crucial for identifying brute-force attacks.
+
+* **Target Account:** ****
+* **Failure Reason:** 0xC000006E (Account is disabled)
+* **Logon Type:** 3 (Network Logon)
+
+### Security Significance
+A **Logon Type 3** indicates the attempt happened over the network. Seeing this against a **Guest** account (which is disabled by default) is a strong indicator of automated scanning or "noise" from a bot trying to find open shares on the network.
